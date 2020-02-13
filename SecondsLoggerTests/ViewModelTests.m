@@ -31,7 +31,7 @@
   self.viewModel = nil;
 }
 
-- (void)testExample {
+- (void)testLogSecond {
   NSInteger seconds = [NSCalendar.currentCalendar component:NSCalendarUnitSecond fromDate:[NSDate date]];
   [self.viewModel logSecond];
   BOOL isEqual = [self.mockRequestQueue.currentValue isEqualToString:[NSString stringWithFormat:@"%ld", seconds]];

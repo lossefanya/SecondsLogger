@@ -35,8 +35,8 @@
   self.requestQueue = nil;
 }
 
-- (void)testExample {
-  NSString *testValue = @"77";
+- (void)testEnqueueAndDequeue {
+  NSString *testValue = @"37";
   [self.requestQueue enqueue:testValue];
   NSArray<NSString *> *array = (NSArray<NSString *> *)[self.userDefaults valueForKey:SecondsLoggerQueueKey];
   XCTAssertNotNil(array);
