@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @implementation ViewModel
 
-- (instancetype)initWithRequestQueue:(RequestQueue *)requestQueue {
+- (instancetype)initWithRequestQueue:(NSObject<RequestQueueProtocol> *)requestQueue {
   self = [super init];
   if (self) {
     self.requestQueue = requestQueue;

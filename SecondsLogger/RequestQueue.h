@@ -10,14 +10,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol RequestQueueProtocol <NSObject>
+
+- (void)enqueue:(NSString *)seconds;
+
+@end
+
 @class NetworkService;
-@interface RequestQueue : NSObject
+@interface RequestQueue : NSObject <RequestQueueProtocol>
 
 @property (nonatomic) NSUserDefaults *userDefaults;
 @property (nonatomic) NetworkService *networkService;
 
 - (instancetype)initWithUserDefaults:(NSUserDefaults *)userDefaults networkService:(NetworkService *)networkService;
-- (void)enqueue:(NSString *)seconds;
+//- (void)enqueue:(NSString *)seconds;
 
 @end
 

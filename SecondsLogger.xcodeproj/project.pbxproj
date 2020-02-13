@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87CC709B23F5FF5D00D95786 /* MockRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CC709A23F5FF5D00D95786 /* MockRequestQueue.m */; };
 		87CFE53523F2E0D500ED3D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFE53423F2E0D500ED3D6F /* AppDelegate.m */; };
 		87CFE53823F2E0D500ED3D6F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFE53723F2E0D500ED3D6F /* SceneDelegate.m */; };
 		87CFE53B23F2E0D500ED3D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFE53A23F2E0D500ED3D6F /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87CC709923F5FF5D00D95786 /* MockRequestQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockRequestQueue.h; sourceTree = "<group>"; };
+		87CC709A23F5FF5D00D95786 /* MockRequestQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockRequestQueue.m; sourceTree = "<group>"; };
 		87CFE53023F2E0D500ED3D6F /* SecondsLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondsLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CFE53323F2E0D500ED3D6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CFE53423F2E0D500ED3D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				87CFE56523F310E100ED3D6F /* RequestQueueTests.m */,
 				87CFE56723F310F000ED3D6F /* ViewModelTests.m */,
 				87CFE56923F3113100ED3D6F /* NetworkServiceTests.m */,
+				87CC709923F5FF5D00D95786 /* MockRequestQueue.h */,
+				87CC709A23F5FF5D00D95786 /* MockRequestQueue.m */,
 			);
 			path = SecondsLoggerTests;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87CFE55023F2E0D800ED3D6F /* SecondsLoggerTests.m in Sources */,
+				87CC709B23F5FF5D00D95786 /* MockRequestQueue.m in Sources */,
 				87CFE56623F310E100ED3D6F /* RequestQueueTests.m in Sources */,
 				87CFE56A23F3113100ED3D6F /* NetworkServiceTests.m in Sources */,
 				87CFE56823F310F000ED3D6F /* ViewModelTests.m in Sources */,

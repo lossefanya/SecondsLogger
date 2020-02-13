@@ -10,12 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class RequestQueue;
+@protocol RequestQueueProtocol;
 @interface ViewModel : NSObject
 
-@property (nonatomic) RequestQueue *requestQueue;
+@property (nonatomic) NSObject<RequestQueueProtocol> *requestQueue;
 
-- (instancetype)initWithRequestQueue:(RequestQueue *)requestQueue;
+- (instancetype)initWithRequestQueue:(NSObject<RequestQueueProtocol> *)requestQueue;
 - (void)logSecond;
 
 @end
