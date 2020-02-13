@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (void)initialize {
-  NetworkService *networkService = [[NetworkService alloc] init];
+  NetworkService *networkService = [NetworkService new];
   RequestQueue *requestQueue = [[RequestQueue alloc] initWithUserDefaults:NSUserDefaults.standardUserDefaults
                                                            networkService:networkService];
   ViewModel *viewModel = [[ViewModel alloc] initWithRequestQueue:requestQueue];

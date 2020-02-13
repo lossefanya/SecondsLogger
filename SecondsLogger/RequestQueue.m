@@ -23,7 +23,7 @@ NSString *const SecondsLoggerQueueKey = @"SecondsLoggerQueueKey";
 
 @implementation RequestQueue
 
-- (instancetype)initWithUserDefaults:(NSUserDefaults *)userDefaults networkService:(NetworkService *)networkService {
+- (instancetype)initWithUserDefaults:(NSUserDefaults *)userDefaults networkService:(NSObject<NetworkServiceProtocol> *)networkService {
   self = [super init];
   if (self) {
     self.userDefaults = userDefaults;

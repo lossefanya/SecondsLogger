@@ -20,5 +20,98 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F601E0A7-BCD5-45B3-A7AE-DB9D3BA35AD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecondsLoggerTests/RequestQueueTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-testExample"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F601E0A7-BCD5-45B3-A7AE-DB9D3BA35AD5 - c5ad56469e2df91d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[RequestQueueTests testExample]_block_invoke"
+                  moduleName = "SecondsLoggerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yeopark/Documents/SecondsLogger/SecondsLoggerTests/RequestQueueTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  uuid = "F601E0A7-BCD5-45B3-A7AE-DB9D3BA35AD5 - c5ad56469e2df91d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[RequestQueueTests testExample]_block_invoke"
+                  moduleName = "SecondsLoggerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yeopark/Documents/SecondsLogger/SecondsLoggerTests/RequestQueueTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "229">
+               </Location>
+               <Location
+                  uuid = "F601E0A7-BCD5-45B3-A7AE-DB9D3BA35AD5 - c5ad56469e2df91d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[RequestQueueTests testExample]_block_invoke"
+                  moduleName = "SecondsLoggerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yeopark/Documents/SecondsLogger/SecondsLoggerTests/RequestQueueTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "930">
+               </Location>
+               <Location
+                  uuid = "F601E0A7-BCD5-45B3-A7AE-DB9D3BA35AD5 - c5ad56469e2df91d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[RequestQueueTests testExample]_block_invoke"
+                  moduleName = "SecondsLoggerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yeopark/Documents/SecondsLogger/SecondsLoggerTests/RequestQueueTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1002">
+               </Location>
+               <Location
+                  uuid = "F601E0A7-BCD5-45B3-A7AE-DB9D3BA35AD5 - c5ad56469e2df91d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[RequestQueueTests testExample]_block_invoke"
+                  moduleName = "SecondsLoggerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yeopark/Documents/SecondsLogger/SecondsLoggerTests/RequestQueueTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

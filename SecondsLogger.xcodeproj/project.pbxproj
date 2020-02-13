@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87CC709B23F5FF5D00D95786 /* MockRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CC709A23F5FF5D00D95786 /* MockRequestQueue.m */; };
+		87CC709E23F607C700D95786 /* MockNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CC709D23F607C700D95786 /* MockNetworkService.m */; };
 		87CFE53523F2E0D500ED3D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFE53423F2E0D500ED3D6F /* AppDelegate.m */; };
 		87CFE53823F2E0D500ED3D6F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFE53723F2E0D500ED3D6F /* SceneDelegate.m */; };
 		87CFE53B23F2E0D500ED3D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFE53A23F2E0D500ED3D6F /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		87CC709923F5FF5D00D95786 /* MockRequestQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockRequestQueue.h; sourceTree = "<group>"; };
 		87CC709A23F5FF5D00D95786 /* MockRequestQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockRequestQueue.m; sourceTree = "<group>"; };
+		87CC709C23F607C700D95786 /* MockNetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockNetworkService.h; sourceTree = "<group>"; };
+		87CC709D23F607C700D95786 /* MockNetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockNetworkService.m; sourceTree = "<group>"; };
 		87CFE53023F2E0D500ED3D6F /* SecondsLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondsLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CFE53323F2E0D500ED3D6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CFE53423F2E0D500ED3D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				87CFE56923F3113100ED3D6F /* NetworkServiceTests.m */,
 				87CC709923F5FF5D00D95786 /* MockRequestQueue.h */,
 				87CC709A23F5FF5D00D95786 /* MockRequestQueue.m */,
+				87CC709C23F607C700D95786 /* MockNetworkService.h */,
+				87CC709D23F607C700D95786 /* MockNetworkService.m */,
 			);
 			path = SecondsLoggerTests;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CC709E23F607C700D95786 /* MockNetworkService.m in Sources */,
 				87CFE55023F2E0D800ED3D6F /* SecondsLoggerTests.m in Sources */,
 				87CC709B23F5FF5D00D95786 /* MockRequestQueue.m in Sources */,
 				87CFE56623F310E100ED3D6F /* RequestQueueTests.m in Sources */,

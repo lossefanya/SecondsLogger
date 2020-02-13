@@ -10,9 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NetworkService : NSObject
+@protocol NetworkServiceProtocol <NSObject>
 
 - (void)logSecond:(NSString *)second callback:(void (^)(NSError * _Nullable error))callback;
+
+@end
+
+@interface NetworkService : NSObject <NetworkServiceProtocol>
 
 @end
 

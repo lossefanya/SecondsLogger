@@ -12,19 +12,21 @@
 
 @interface ViewModelTests : XCTestCase
 
-@property (nonatomic) MockRequestQueue *mockRequestQueue;
-@property (nonatomic) ViewModel *viewModel;
+@property (nonatomic, nullable) MockRequestQueue *mockRequestQueue;
+@property (nonatomic, nullable) ViewModel *viewModel;
 
 @end
 
 @implementation ViewModelTests
 
 - (void)setUp {
-  self.mockRequestQueue = [[MockRequestQueue alloc] init];
+  [super setUp];
+  self.mockRequestQueue = [MockRequestQueue new];
   self.viewModel = [[ViewModel alloc] initWithRequestQueue:self.mockRequestQueue];
 }
 
 - (void)tearDown {
+  [super tearDown];
   self.mockRequestQueue = nil;
   self.viewModel = nil;
 }
